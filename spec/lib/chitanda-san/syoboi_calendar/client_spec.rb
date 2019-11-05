@@ -41,6 +41,7 @@ EOS
       end
 
       it { expect(@response.status).to eq 200 }
+      it { expect(@response.status).to eq 200 }
     end
   end
 end
