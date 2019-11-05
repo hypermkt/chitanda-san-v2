@@ -19,6 +19,10 @@ module ChitandaSan
       # EdTimeU: 終了時間 (Unix Epoch)
       TITLE_FORMAT = "$(Cat)##$(Flag)##$(ChGID)##$(ChID)##$(ChName)##$(Title)##$(Count)##$(SubTitleA)##$(StTimeU)##$(EdTimeU)".freeze
 
+      def client
+        Faraday.new
+      end
+
       def get
         start_date = Time.current.strftime('%Y%m%d1300')
         end_date = Time.current.tomorrow.strftime('%Y%m%d0300')
@@ -30,7 +34,7 @@ module ChitandaSan
             titlefmt: TITLE_FORMAT,
         }
 
-        Faraday.get(ENDPOINT, params)
+        client.get(ENDPOINT, params)
       end
     end
   end
