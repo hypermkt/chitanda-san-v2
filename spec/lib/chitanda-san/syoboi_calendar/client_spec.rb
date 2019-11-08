@@ -41,6 +41,7 @@ EOS
       end
 
       it { expect(@response.status).to eq 200 }
+      it { expect(@response.body).to eq rss }
     end
   end
 end
