@@ -1,4 +1,4 @@
-# chitanda-san-v2
+# chitanda-san-v2 [![CircleCI](https://circleci.com/gh/hypermkt/chitanda-san-v2.svg?style=svg)](https://circleci.com/gh/hypermkt/chitanda-san-v2)
 
 Notify today's anime tv programs.
 
