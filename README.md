@@ -18,5 +18,5 @@ $ bundle install --path vendor/bundle
 ## Execute
 
 ```sh
-$ bundle exec ruby lib/chitanda-san.rb
+$ bundle exec ruby bin/chitanda-san.rb
 ```
