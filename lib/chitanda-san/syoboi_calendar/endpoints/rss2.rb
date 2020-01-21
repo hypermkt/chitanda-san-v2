@@ -16,7 +16,7 @@ module ChitandaSan
         TITLE_FORMAT = "$(Cat)##$(Flag)##$(ChGID)##$(ChID)##$(ChName)##$(Title)##$(Count)##$(SubTitleA)##$(StTimeU)##$(EdTimeU)".freeze
 
         def rss2
-          start_date = Time.current.strftime('%Y%m%d1300')
+          start_date = Time.current.strftime('%Y%m%d1900')
           end_date = Time.current.tomorrow.strftime('%Y%m%d0300')
           params = {
             start: start_date,
