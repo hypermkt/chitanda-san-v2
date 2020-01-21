@@ -13,7 +13,7 @@ module ChitandaSan
       end
 
       def connection
-        @connection ||= Faraday.new(url: ChitandaSan::SyoboiCalendar::Constants::BASE_URL) do |config|
+        @connection ||= Faraday.new(url: @base_url) do |config|
           config.response :xml
           config.adapter :net_http
         end
