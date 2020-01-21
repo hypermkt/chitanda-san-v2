@@ -1,7 +1,6 @@
 require './lib/chitanda-san/syoboi_calendar/client'
 require './lib/chitanda-san/syoboi_calendar/models/rss2'
 require './lib/chitanda-san/syoboi_calendar/repositories/rss2'
-require './lib/chitanda-san/syoboi_calendar/parser'
 require './lib/chitanda-san/message'
 
 desc "syoboi calendar api call test"
