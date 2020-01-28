@@ -3,6 +3,7 @@ module ChitandaSan
     module Constants
       BASE_URL = 'http://cal.syoboi.jp'
       CHANNELS = {
+        NHK_SOUGOU: 1,
         TBS: 5,
         TOKYO_MX: 19,
         TOKYO_MX2: 187,
