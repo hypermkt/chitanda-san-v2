@@ -3,7 +3,6 @@ require './lib/chitanda-san/syoboi_calendar/client'
 require './lib/chitanda-san/syoboi_calendar/models/rss2'
 require './lib/chitanda-san/syoboi_calendar/repositories/rss2'
 require './lib/chitanda-san/syoboi_calendar/programs'
-require './lib/chitanda-san/message'
 
 desc "syoboi calendar api call test"
 task :syoboi_calendar_api do

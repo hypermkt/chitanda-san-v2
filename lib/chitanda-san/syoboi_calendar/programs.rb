@@ -9,7 +9,8 @@ module ChitandaSan
 
       def filter
         @programs = programs.select{|program|
-          (program.category_id == 1 || program.category_id == 8) && program.channel_group_id == 1
+          (program.category_id == 1 || program.category_id == 8) &&
+            ChitandaSan::SyoboiCalendar::Constants::CHANNELS.values.include?(program.channel_id)
         }
         self
       end

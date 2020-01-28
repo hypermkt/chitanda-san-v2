@@ -2,7 +2,7 @@ module ChitandaSan
   module SyoboiCalendar
     module Models
       class Rss2
-        attr_reader :category_id, :category_name, :flag, :channel_group_id, :channel_name, :title, :count, :subtitle, :start_timestamp, :end_timestamp
+        attr_reader :category_id, :category_name, :flag, :channel_group_id, :channel_id, :channel_name, :title, :count, :subtitle, :start_timestamp, :end_timestamp
 
         CATEGORIES = {1 => '[TV]', 8 => '[映]'}
 
