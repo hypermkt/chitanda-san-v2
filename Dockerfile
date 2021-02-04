@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM rubylang/ruby:3.0.0-focal
 
 Add . /opt/chitanda-san
 WORKDIR /opt/chitanda-san
