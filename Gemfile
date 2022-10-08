@@ -7,6 +7,7 @@ gem 'faraday_middleware'
 gem 'multi_xml'
 gem 'slack-notifier'
 gem 'dotenv'
+gem 'rexml'
 
 group :development do
   gem 'pry'
