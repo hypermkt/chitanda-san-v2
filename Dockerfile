@@ -6,6 +6,7 @@ WORKDIR /opt/chitanda-san
 RUN apt-get update && apt-get upgrade -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* \
+ && gem update --system \
  && bundle config set without development \
  && bundle install -j4
 
